@@ -1,0 +1,10 @@
+numpy>=1.26
+pandas>=2.1
+scikit-learn>=1.4
+statsmodels>=0.14
+xgboost>=2.0
+matplotlib>=3.8
+pytest>=8
+nbformat
+nbconvert
+ipykernel
