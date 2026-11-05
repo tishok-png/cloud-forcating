@@ -1,0 +1,10 @@
+,MAE,RMSE,sMAPE%,MASE,Peak_MAE,vs_Persistence%,vs_BestBaseline%,type
+Persistence,0.0,0.0,0.0,,0.0,,,baseline
+MovingAvg(12),0.0,0.0,0.0,,0.0,,,baseline
+SeasonalNaive(12),0.0,0.0,0.0,,0.0,,,baseline
+Holt,9.852859269206723e-12,1.1310935773616092e-11,9.852859269206717e-14,,9.852859269206723e-12,,,main
+Ridge,0.0,0.0,0.0,,0.0,,,main
+RandomForest,0.0,0.0,0.0,,0.0,,,main
+XGBoost,0.0,0.0,0.0,,0.0,,,main
+Holt(damped),4.6422125402993215e-12,5.332385353339566e-12,4.64221254029932e-14,,4.6422125402993215e-12,,,extra
+Ensemble(main4),2.3495279795800647e-12,2.753631955872599e-12,2.3495279795800643e-14,,2.3495279795800647e-12,,,extra

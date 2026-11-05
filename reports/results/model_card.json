@@ -1,0 +1,48 @@
+{
+  "active_vm_count": {
+    "chosen": "Persistence",
+    "tuned_params": {
+      "Ridge": {
+        "alpha": 0.1
+      },
+      "RandomForest": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      "XGBoost": {
+        "max_depth": 2,
+        "n_estimators": 100
+      }
+    },
+    "cv_origins": [
+      50,
+      62,
+      74,
+      86
+    ],
+    "band90_pp": 0.0
+  },
+  "aggregate_cpu_utilization": {
+    "chosen": "Persistence",
+    "tuned_params": {
+      "Ridge": {
+        "alpha": 1000.0
+      },
+      "RandomForest": {
+        "max_depth": 3,
+        "min_samples_leaf": 5
+      },
+      "XGBoost": {
+        "max_depth": 3,
+        "n_estimators": 300
+      }
+    },
+    "cv_origins": [
+      50,
+      62,
+      74,
+      86
+    ],
+    "band90_pp": 0.42587910876081203
+  }
+}

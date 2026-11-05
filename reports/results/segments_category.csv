@@ -1,0 +1,4 @@
+vm_category,mean,median,p95,step_to_step_sd_of_segment_mean
+Delay-insensitive,8.24,5.15,25.91,0.134
+Interactive,11.49,5.28,49.41,0.257
+Unknown,10.23,3.38,52.23,0.266
